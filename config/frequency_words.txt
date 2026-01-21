@@ -183,6 +183,8 @@
 /英伟达|\bNVIDIA\b|黄仁勋/i => 英伟达
 /\bAMD\b/i => AMD
 
+/台积电
+
 /微软|\bMicrosoft\b/i => 微软
 /谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
 /\biphone\b|\bipad\b|\bmac\b|\bios\b/i => 苹果
