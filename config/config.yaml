@@ -99,7 +99,7 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+      enabled: true                  # 禁用
 
     # 自定义源示例
     # - id: "custom-feed"
@@ -162,10 +162,10 @@ display:
   #   2. 下方 regions 中对应开关为 true
   region_order:
     - ai_analysis                     # 5️⃣ AI 分析区域
-    - new_items                       # 1️⃣ 新增热点区域
-    - hotlist                         # 2️⃣ 热榜区域（关键词匹配）
-    - rss                             # 3️⃣ RSS 订阅区域
-    - standalone                      # 4️⃣ 独立展示区
+  #  - new_items                       # 1️⃣ 新增热点区域
+  #  - hotlist                         # 2️⃣ 热榜区域（关键词匹配）
+  #  - rss                             # 3️⃣ RSS 订阅区域
+  #  - standalone                      # 4️⃣ 独立展示区
 
 
   # 推送区域开关
